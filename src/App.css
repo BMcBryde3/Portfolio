@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+/* set the main elements background color to #006466 */
+.card {
+  background-color: #006466;
+}

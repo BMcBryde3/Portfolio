@@ -1,3 +1,8 @@
+//download react Onclick event
+//download resume.md file
+
+
+
 export default function Resume() {
   return (
     <div>
@@ -22,7 +27,9 @@ export default function Resume() {
             </ul>
           </div>
         </div>
+        <a className="d-grid gap-2" href="/assets/resume.txt" download>
         <button type="button" className="btn btn-primary btn-lg">Download Resume</button>
+        </a>
       </div>
     </div>
   );
