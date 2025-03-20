@@ -5,7 +5,7 @@ export default function AboutMe() {
         <div className="col-md-4 d-flex align-items-center justify-content-center">
           <img 
             src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXRwMDN4d3F0bTV4ZnU1MDBqdWJjbWl1bWE2bWp5NzZleXFoemE5OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eKaFqGAKqCiuNi3qlq/giphy.gif" 
-            className="img-fluid rounded-start" 
+            className="img-fluid rounded" 
             alt="..." 
             style={{ maxHeight: '800px', objectFit: 'cover' }}
           />
