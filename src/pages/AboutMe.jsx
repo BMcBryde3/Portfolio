@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <div className="card-flex mb-3">
+    <div className="card-flex mb-3" style={{ padding: '150px' , margin: '50px', color:'white', textShadow: 'black', opacity: '1' }}>
       <div className="row g-0">
         <div className="col-md-4 d-flex align-items-center justify-content-center">
           <img 
@@ -10,10 +10,10 @@ export default function AboutMe() {
             style={{ maxHeight: '800px', objectFit: 'cover' }}
           />
         </div>
-        <div className="col-md-8 d-flex align-items-center justify-content-center">
-          <div className="card-body">
-            <h1 className="card-title">About Me</h1>
-            <p className="card-text">
+        <div className="col-md-8 d-flex align-items-center justify-content-center" style={{ padding: '50px' }}>
+          <div className="card-body ">
+            <h1 className="card-title text-center">About Me</h1>
+            <p className="card-text" style={{ fontSize: '1.5rem', padding: '25px' }}>
               Hi, Im Brett McBryde, a passionate full-stack developer eager to build dynamic and user-friendly web applications. With a strong foundation in front-end and back-end technologies, I enjoy crafting seamless digital experiences that blend functionality with great design.
               I thrive on problem-solving, continuous learning, and bringing ideas to life through code. Whether it&apos;s developing responsive UIs, optimizing databases, or integrating APIs, I&apos;m always up for a challenge.
               Let&apos;s connect and build something amazing together! 🚀

@@ -5,9 +5,9 @@
 
 export default function Resume() {
   return (
-    <div>
+    <div className="container">
       <h1>Resume</h1>
-      <div className="card">
+      <div className="card-lg" style={{ padding: '50px' , margin: '50px', color:'white', textShadow: 'black', opacity: '1' }}>
         <h5>Skills Include</h5>
         <div className="row">
           <div className="col-md-6">
@@ -27,7 +27,7 @@ export default function Resume() {
             </ul>
           </div>
         </div>
-        <a className="d-grid gap-2" href="/assets/resume.txt" download>
+        <a className="d-grid gap-2" href="/assets/Brett_McBryde.docx" download>
         <button type="button" className="btn btn-primary btn-lg">Download Resume</button>
         </a>
       </div>

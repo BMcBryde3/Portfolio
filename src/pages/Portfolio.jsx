@@ -1,7 +1,7 @@
 export default function Portfolio() {
   return (
     <div className="container justify-content-center" style={{ minHeight: '100vh' }}>
-      <div className="text-center">
+      <div className="text-center" style={{ padding: '25px', color:'white', textShadow: 'black', opacity: '1' }}>
         <h1>Portfolio</h1>
       </div>
       <span></span>
